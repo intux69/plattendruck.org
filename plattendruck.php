@@ -3,7 +3,7 @@
 /*                                                     */
 /*              Plattendruck nach DIN 18134            */
 /*                                                     */
-/*                      intux                    */
+/*                        intux                        */
 /*                                                     */
 /*                     Version  1.0                    */
 /*                                                     */
