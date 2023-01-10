@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<form action="plattendruck.php" method="post">
+
+<html>
+<head>
+<title>Eingabe Laststufen - Setzung</title>
+<link rel="stylesheet" href="pld.css" type="text/css" media="screen, projection" />
+</head>
+<body>
+	
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<h1>Plattendruck nach DIN 18134</h1>
+
+<table border="1" rules="groups">
+
+  <tbody>
+	<tr>
+
+  <thead>
+    <tr>
+      <th>Erstbelastung</th>
+      <th></th>
+      <th>Entlastung</th>
+      <th></th>
+      <th>Zweitbelastung</th>
+      <th></th>
+    </tr>
+    <tr>
+      <th>Spannung [MN/m]</th>
+      <th>Setzung [0.01 mm]</th>
+      <th>Spannung [MN/m]</th>
+      <th>Setzung [0.01 mm]</th>
+      <th>Spannung [MN/m]</th>
+      <th>Setzung [0.01 mm]</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><input type="text" name="a11" size="4" maxlength="4" value="0.08"></td>
+      <td><input type="text" name="b11" size="4" maxlength="4" value="10"></td>	  	
+      <td><input type="text" name="a17" size="4" maxlength="4" value="0.25"></td>
+      <td><input type="text" name="b17" size="4" maxlength="4" value="105"></td>	   
+      <td><input type="text" name="a20" size="4" maxlength="4" value="0.08"></td>
+      <td><input type="text" name="b20" size="4" maxlength="4" value="76"></td>
+      </tr><tr>
+      <td><input type="text" name="a12" size="4" maxlength="4" value="0.16"></td>
+      <td><input type="text" name="b12" size="4" maxlength="4" value="28"></td>	  
+      <td><input type="text" name="a18" size="4" maxlength="4" value="0.12"></td>
+      <td><input type="text" name="b18" size="4" maxlength="4" value="96"></td>	  	  
+      <td><input type="text" name="a21" size="4" maxlength="4" value="0.16"></td>
+      <td><input type="text" name="b21" size="4" maxlength="4" value="86"></td>
+      </tr><tr>
+      <td><input type="text" name="a13" size="4" maxlength="4" value="0.25"></td>
+      <td><input type="text" name="b13" size="4" maxlength="4" value="54"></td>
+      <td><input type="text" name="a19" size="4" maxlength="4" value="0.00"></td>
+      <td><input type="text" name="b19" size="4" maxlength="4" value="62"></td>
+      <td><input type="text" name="a22" size="4" maxlength="4" value="0.25"></td>
+      <td><input type="text" name="b22" size="4" maxlength="4" value="96"></td>
+    </tr><tr>
+      <td><input type="text" name="a14" size="4" maxlength="4" value="0.33"></td>
+      <td><input type="text" name="b14" size="4" maxlength="4" value="71"></td>
+      <td></td>
+      <td></td>
+      <td><input type="text" name="a23" size="4" maxlength="4" value="0.33"></td>
+      <td><input type="text" name="b23" size="4" maxlength="4" value="103"></td>
+    </tr><tr>
+      <td><input type="text" name="a15" size="4" maxlength="4" value="0.42"></td>
+      <td><input type="text" name="b15" size="4" maxlength="4" value="98"></td>
+      <td></td>
+      <td></td>
+      <td><input type="text" name="a24" size="4" maxlength="4" value="0.42"></td>
+      <td><input type="text" name="b24" size="4" maxlength="4" value="112"></td>
+    </tr><tr>
+      <td><input type="text" name="a16" size="4" maxlength="4" value="0.50"></td>
+      <td><input type="text" name="b16" size="4" maxlength="4" value="114"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+	</tr><tr>
+      <td><br></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>  
+	</tr><tr>
+      <td><p>Durchmesser [mm]</p></td>
+      <td><input type="text" name="a" size="4" maxlength="4" value="300"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+	</tr><tr>
+      <td><p>Verhaeltnis</p></td>
+      <td><input type="text" name="b" size="4" maxlength="4" value="2"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>	
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
+
+  <input type="submit" value="berechnen">
+</form>
+
+<br>
+<a href="https://intux.de/impressum/">Impressum</a> - <a href="https://intux.de/datenschutzerklaerung/">Datenschutzerklaerung</a>  
